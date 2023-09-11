@@ -20,6 +20,7 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 09:41:29",
             "depart_time": "2023-04-26 10:01:29",
             "move_time": 73,
+            "star": 5,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%82%E1%85%B5%E1%84%89%E1%85%B5%E1%84%82%E1%85%A9%E1%84%86%E1%85%A1%E1%84%85%E1%85%AE+%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%AF%E1%86%AB.png"
         },
         {
@@ -42,6 +43,7 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 10:02:29",
             "depart_time": "2023-04-26 10:42:29",
             "move_time": 1,
+            "star": 10,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%A1%E1%84%8F%E1%85%A1+%E1%84%89%E1%85%AE%E1%84%89%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%84%89%E1%85%B3+%E1%84%8B%E1%85%A1%E1%84%8F%E1%85%AE%E1%84%8B%E1%85%A1%E1%84%85%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%A5.png"
         },
         {
@@ -64,6 +66,7 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 10:52:29",
             "depart_time": "2023-04-26 11:12:29",
             "move_time": 10,
+            "star": 15,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%A1%E1%84%8F%E1%85%A1+%E1%84%89%E1%85%A5%E1%86%BC.png"
         },
         {
@@ -86,6 +89,7 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 11:13:29",
             "depart_time": "2023-04-26 11:33:29",
             "move_time": 1,
+            "star": 20,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%A1%E1%84%8F%E1%85%A1+%E1%84%89%E1%85%A5%E1%86%BC+%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%AF%E1%86%AB.png"
         },
         {
@@ -108,29 +112,8 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 11:34:29",
             "depart_time": "2023-04-26 11:54:29",
             "move_time": 1,
+            "star": 25,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%A1%E1%84%8F%E1%85%A1+%E1%84%89%E1%85%A5%E1%86%BC+%E1%84%8E%E1%85%A5%E1%86%AB%E1%84%89%E1%85%AE%E1%84%80%E1%85%A1%E1%86%A8.png"
-        },
-        {
-            "id": 51,
-            "name": "오사카 역사 박물관",
-            "imgUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEwMjRfMjgx%2FMDAxNjY2NjE4ODQ4NTk2.ey7qjXGh6AvNna6gWUCjY24QZCLCN90ATmRrVfsN-sog.AY09tVh1SYRBlIGA3xvQfpUw2c2eSClURmataaJ9mCcg.JPEG.yjy8856%2FScreenshot_20221024_213504.jpg&type=a340",
-            "address": "4 Chome-1-32 Otemae Chuo Ward Osaka 540-0008 일본",
-            "localAddress": "〒540-0008 大阪府大阪市中央区大手前４丁目１−32",
-            "phoneNumber": "+81 6-6946-5728",
-            "sun": "오전 9:30~오후 5:00",
-            "mon": "오전 9:30~오후 5:00",
-            "tue": "휴무일",
-            "wed": "오전 9:30~오후 5:00",
-            "thu": "오전 9:30~오후 5:00",
-            "fri": "오전 9:30~오후 5:00",
-            "sat": "오전 9:30~오후 5:00",
-            "overview": "고대부터 현재까지의 오사카 역사를 살펴볼 수 있는 현대적인 박물관입니다.",
-            "latitude": 34.6829846171552,
-            "longitude": 135.520786767687,
-            "arrive_time": "2023-04-26 12:03:29",
-            "depart_time": "2023-04-26 12:48:29",
-            "move_time": 9,
-            "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%A1%E1%84%8F%E1%85%A1+%E1%84%8B%E1%85%A7%E1%86%A8%E1%84%89%E1%85%A1+%E1%84%87%E1%85%A1%E1%86%A8%E1%84%86%E1%85%AE%E1%86%AF%E1%84%80%E1%85%AA%E1%86%AB.png"
         },
         {
             "id": 52,
@@ -152,6 +135,7 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 13:27:29",
             "depart_time": "2023-04-26 14:12:29",
             "move_time": 39,
+            "star": 30,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%A1%E1%84%8F%E1%85%A1+%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%AE%E1%84%82%E1%85%A9+%E1%84%8F%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A1%E1%84%90%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB.png"
         },
         {
@@ -174,6 +158,7 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 14:57:29",
             "depart_time": "2023-04-26 16:27:29",
             "move_time": 45,
+            "star": 35,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%80%E1%85%AE%E1%86%A8%E1%84%85%E1%85%B5%E1%86%B8%E1%84%80%E1%85%AE%E1%86%A8%E1%84%8C%E1%85%A6%E1%84%86%E1%85%B5%E1%84%89%E1%85%AE%E1%86%AF%E1%84%80%E1%85%AA%E1%86%AB.png"
         },
         {
@@ -196,6 +181,7 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 16:55:29",
             "depart_time": null,
             "move_time": 28,
+            "star": 40,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%AB%E1%84%83%E1%85%B3+%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%86%AB%E1%84%90%E1%85%B3+%E1%84%8B%E1%85%A9%E1%84%89%E1%85%A1%E1%84%8F%E1%85%A1.png"
         }
     ],
@@ -220,6 +206,7 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 09:41:29",
             "depart_time": "2023-04-26 10:01:29",
             "move_time": 73,
+            "star": 45,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%82%E1%85%B5%E1%84%89%E1%85%B5%E1%84%82%E1%85%A9%E1%84%86%E1%85%A1%E1%84%85%E1%85%AE+%E1%84%8C%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%AF%E1%86%AB.png"
         },
         {
@@ -242,6 +229,7 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 10:02:29",
             "depart_time": "2023-04-26 10:42:29",
             "move_time": 1,
+            "star": 50,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%A1%E1%84%8F%E1%85%A1+%E1%84%89%E1%85%AE%E1%84%89%E1%85%A1%E1%86%BC%E1%84%87%E1%85%A5%E1%84%89%E1%85%B3+%E1%84%8B%E1%85%A1%E1%84%8F%E1%85%AE%E1%84%8B%E1%85%A1%E1%84%85%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%82%E1%85%A5.png"
         },
         {
@@ -264,6 +252,7 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 10:52:29",
             "depart_time": "2023-04-26 11:12:29",
             "move_time": 10,
+            "star": 45,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%A1%E1%84%8F%E1%85%A1+%E1%84%89%E1%85%A5%E1%86%BC.png"
         },
         {
@@ -286,6 +275,7 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 11:13:29",
             "depart_time": "2023-04-26 11:33:29",
             "move_time": 1,
+            "star": 40,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%A1%E1%84%8F%E1%85%A1+%E1%84%89%E1%85%A5%E1%86%BC+%E1%84%80%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%AF%E1%86%AB.png"
         },
         {
@@ -308,29 +298,8 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 11:34:29",
             "depart_time": "2023-04-26 11:54:29",
             "move_time": 1,
+            "star": 35,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%A1%E1%84%8F%E1%85%A1+%E1%84%89%E1%85%A5%E1%86%BC+%E1%84%8E%E1%85%A5%E1%86%AB%E1%84%89%E1%85%AE%E1%84%80%E1%85%A1%E1%86%A8.png"
-        },
-        {
-            "id": 51,
-            "name": "오사카 역사 박물관",
-            "imgUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEwMjRfMjgx%2FMDAxNjY2NjE4ODQ4NTk2.ey7qjXGh6AvNna6gWUCjY24QZCLCN90ATmRrVfsN-sog.AY09tVh1SYRBlIGA3xvQfpUw2c2eSClURmataaJ9mCcg.JPEG.yjy8856%2FScreenshot_20221024_213504.jpg&type=a340",
-            "address": "4 Chome-1-32 Otemae Chuo Ward Osaka 540-0008 일본",
-            "localAddress": "〒540-0008 大阪府大阪市中央区大手前４丁目１−32",
-            "phoneNumber": "+81 6-6946-5728",
-            "sun": "오전 9:30~오후 5:00",
-            "mon": "오전 9:30~오후 5:00",
-            "tue": "휴무일",
-            "wed": "오전 9:30~오후 5:00",
-            "thu": "오전 9:30~오후 5:00",
-            "fri": "오전 9:30~오후 5:00",
-            "sat": "오전 9:30~오후 5:00",
-            "overview": "고대부터 현재까지의 오사카 역사를 살펴볼 수 있는 현대적인 박물관입니다.",
-            "latitude": 34.6829846171552,
-            "longitude": 135.520786767687,
-            "arrive_time": "2023-04-26 12:03:29",
-            "depart_time": "2023-04-26 12:48:29",
-            "move_time": 9,
-            "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%A1%E1%84%8F%E1%85%A1+%E1%84%8B%E1%85%A7%E1%86%A8%E1%84%89%E1%85%A1+%E1%84%87%E1%85%A1%E1%86%A8%E1%84%86%E1%85%AE%E1%86%AF%E1%84%80%E1%85%AA%E1%86%AB.png"
         },
         {
             "id": 52,
@@ -352,6 +321,7 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 13:27:29",
             "depart_time": "2023-04-26 14:12:29",
             "move_time": 39,
+            "star": 30,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%8B%E1%85%A9%E1%84%89%E1%85%A1%E1%84%8F%E1%85%A1+%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%AE%E1%84%82%E1%85%A9+%E1%84%8F%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8B%E1%85%A1%E1%84%90%E1%85%A1%E1%84%8B%E1%85%AE%E1%86%AB.png"
         },
         {
@@ -374,6 +344,7 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 14:57:29",
             "depart_time": "2023-04-26 16:27:29",
             "move_time": 45,
+            "star": 25,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%80%E1%85%AE%E1%86%A8%E1%84%85%E1%85%B5%E1%86%B8%E1%84%80%E1%85%AE%E1%86%A8%E1%84%8C%E1%85%A6%E1%84%86%E1%85%B5%E1%84%89%E1%85%AE%E1%86%AF%E1%84%80%E1%85%AA%E1%86%AB.png"
         },
         {
@@ -396,6 +367,7 @@ export const resultdummy = [
             "arrive_time": "2023-04-26 16:55:29",
             "depart_time": "2023-04-26 19:55:29",
             "move_time": 28,
+            "star": 20,
             "keywordImgUrl": "https://letstrip-s3-bucket.s3.ap-northeast-2.amazonaws.com/osaka/%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%AB%E1%84%83%E1%85%B3+%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%86%AB%E1%84%90%E1%85%B3+%E1%84%8B%E1%85%A9%E1%84%89%E1%85%A1%E1%84%8F%E1%85%A1.png"
         }
     ]

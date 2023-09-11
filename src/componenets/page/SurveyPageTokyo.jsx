@@ -96,7 +96,11 @@ export default function SurveyPageTokyo() {
     await fetch(options.url,options)
     .then(response => response.json())
     setLoading(false);
-    navigate("/ResultPageTokyo")
+    navigate("/resultpagetokyo")
+  };
+
+  const hardCodingTokyo = () => {
+    navigate("/resultpage");
   };
 
   return (
@@ -248,7 +252,10 @@ export default function SurveyPageTokyo() {
             </div>
           </Slider>
           <div className="setcenter">
-            <Button className="button" variant="primary" type="submit" onClick={handleSubmit}>
+            {/*<Button className="button" variant="primary" type="submit" onClick={handleSubmit}>
+              일정 추가하기
+            </Button>*/}
+            <Button className="button" variant="primary" type="submit" onClick={hardCodingTokyo}>
               일정 추가하기
             </Button>
           </div>

@@ -100,6 +100,10 @@ export default function SurveyPage() {
     navigate("/resultpage")
   };
 
+  const hardCodingOsaka = () => {
+    navigate("/resultpage");
+  };
+
   return (
     <div>
       <Header/>
@@ -249,7 +253,10 @@ export default function SurveyPage() {
             </div>
           </Slider>
           <div className="setcenter">
-            <Button className="button" variant="primary" type="submit" onClick={handleSubmit}>
+            {/*<Button className="button" variant="primary" type="submit" onClick={handleSubmit}>
+              일정 추가하기
+            </Button>*/}
+            <Button className="button" variant="primary" type="submit" onClick={hardCodingOsaka}>
               일정 추가하기
             </Button>
           </div>

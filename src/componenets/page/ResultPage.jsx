@@ -21,11 +21,35 @@ import 'swiper/components/pagination/pagination.min.css'
 
 import Result from "../Result";
 import ShowMap from "./ShowMap";
+import { resultdummy } from "../../resultdummy";
 
 SwiperCore.use([Navigation, Pagination])
 
 const otherLocations = [];
+  for (let i = 0; i < resultdummy.length; i++) {
+    const locations = [];
+    for (let j = 0; j < resultdummy[i].length; j++) {
+      locations.push({
+        latitude: resultdummy[i][j].latitude,
+        longitude: resultdummy[i][j].longitude
+      });
+    }
+  otherLocations.push(locations);
+}
+
 const myFavorite = [];
+  for (let i = 0; i < resultdummy.length; i++) {
+    const favorites = [];
+    for (let j = 0; j < resultdummy[i].length; j++) {
+      favorites.push({
+        id: resultdummy[i][j].id,
+        arrive_time: resultdummy[i][j].arrive_time,
+        depart_time: resultdummy[i][j].depart_time,
+        move_time: resultdummy[i][j].move_time
+      });
+    }
+    myFavorite.push(favorites);
+}
 
 export default function ResultPage() {
   if(myResult[0]) {
@@ -114,7 +138,7 @@ export default function ResultPage() {
     <div className="App">
       <Header/>
       <div className="main-title">여행 일정을 확인해주세요!</div> 
-      {loading ? (<Loading/>) : (
+      {/*{loading ? (<Loading/>) : (
         <div style={{backgroundColor:"#f5f5f7", position:"relative"}}>
           <Slider>
             {
@@ -165,7 +189,6 @@ export default function ResultPage() {
                       </div>
                     </div>
                     <div style={{display:"flex", width:"550px", align:"center"}} className="setcenter">
-                      {/* <div className="setcenter" style={{marginTop:"-30px"}}> */}
                       <div className="setcenter" style={{marginTop:""}}>
                         <Button className="button" variant="primary" type="submit" onClick={(e)=>{sendFavorite(index)}}>
                           코스 저장하기
@@ -188,8 +211,81 @@ export default function ResultPage() {
             }
           </Slider>
         </div>
-      )}
+      )}*/}
+      <div style={{backgroundColor:"#f5f5f7", position:"relative"}}>
+        <Slider>
+          {
+            resultdummy.map((items,index) => {
+              return(
+                <div className="setcenter">
+                  <br/>
+                  <div style={{fontSize:"40px", fontStyle:"oblique", fontWeight:"bold"}}>
+                    {index+1}일차 여행코스
+                  </div>
+                  <br/>
+                  <div className="setcenter" style={{display:"", alignItems:"flex-start"}}>
+                    <div style={{padding:"0px 20px", paddingBottom:"20px"}}>
+                      <ShowMap SO={otherLocations[index]}/>
+                    </div>
+                    <br/>
+                    <div>
+                      {
+                        items.map((item,index) => {
+                          let location = {latitude: item.latitude, longitude : item.longitude}
+                          otherLocations.push(location)
+                          return(
+                            <Result
+                              index={index}
+                              name={item.name}
+                              imgUrl={item.imgUrl}
+                              overview={item.overview}
+                              address={item.address}
+                              localAddress={item.localAddress}
+                              phoneNumber={item.phoneNumber}
+                              latitude={item.latitude}
+                              longitude={item.longitude}
+                              sun={item.sun}
+                              mon={item.mon}
+                              tue={item.tue}
+                              wed={item.wed}
+                              thu={item.thu}
+                              fri={item.fri}
+                              sat={item.sat}
+                              keywordImgUrl={item.keywordImgUrl}
+                              id={item.id}
+                              arrive_time={item.arrive_time}
+                              depart_time={item.depart_time}
+                              move_time={item.move_time}
+                              star={item.star}
+                            />
+                          )
+                        })
+                      }
+                    </div>
+                  </div>
+                  <div style={{display:"flex", width:"550px", align:"center"}} className="setcenter">
+                    <div className="setcenter" style={{marginTop:""}}>
+                      <Button className="button" variant="primary" type="submit" onClick={(e)=>{sendFavorite(index)}}>
+                        코스 저장하기
+                      </Button>
+                    </div>
+                    <div className="setcenter">
+                      <Button className="button" variant="primary" type="submit" onClick={rehandleSubmit}>
+                        경로 재검색
+                      </Button>
+                    </div>
+                    <div className="setcenter">
+                      <Button className="button" variant="primary" type="submit" onClick={gomainpage}>
+                        메인 페이지
+                      </Button>
+                    </div>
+                  </div>
+                </div>
+              )
+            })
+          }
+        </Slider>
+      </div>
     </div>
   );
-  
 }
